@@ -1,10 +1,16 @@
 package com.kt.learn
 
-// main constructor
 class Persion constructor(var name: String) {
+    // main constructor
     init {
-        println("initializer static code")
+        println("main constructor $name")
     }
+
+    // second constructor
+    constructor (name: String, age: Int): this(name) {
+        println("second constructor $name $age")
+    }
+
     // var <propertyName>[: <PropertyType>] [= <property_initializer>]
     // [<getter>]
     // [<setter>]

@@ -53,9 +53,16 @@ fun entry() {
     println("")
 
     // Class
-    var persion: Persion = Persion("Sun")
-    println(persion.largeName)
+    var persion: Persion = Persion("Sun", 35)
+    println("largeName: ${persion.largeName} no: ${persion.no}")
+    persion.no = 115
+    println("persion.no: ${persion.no}")
 
+    // 抽象类
+    Derived().f()
+
+    // 内部类
+    Outer().Inner().innerTest()
 }
 
 // >>>>> 从标签处返回

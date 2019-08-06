@@ -63,6 +63,12 @@ fun entry() {
 
     // 内部类
     Outer().Inner().innerTest()
+
+    // 扩展
+    Extent("extent").foo()
+
+    // 数据类和密封类
+    dataSealedClass()
 }
 
 // >>>>> 从标签处返回

@@ -69,6 +69,9 @@ fun entry() {
 
     // 数据类和密封类
     dataSealedClass()
+
+    // 泛型
+    genericType()
 }
 
 // >>>>> 从标签处返回

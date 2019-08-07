@@ -72,6 +72,9 @@ fun entry() {
 
     // 泛型
     genericType()
+
+    // 对象表达式、对象声明
+    objectExpress()
 }
 
 // >>>>> 从标签处返回

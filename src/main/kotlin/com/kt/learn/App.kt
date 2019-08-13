@@ -75,6 +75,9 @@ fun entry() {
 
     // 对象表达式、对象声明
     objectExpress()
+
+    // 委托代理
+    doDelegate()
 }
 
 // >>>>> 从标签处返回
